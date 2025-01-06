@@ -19,14 +19,13 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8">
+              <div className="w-36 h-36">
                 <img
                   src="/images/logo.png"
                   alt="NoReplay Logo"
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-xl font-bold">NoReplay</span>
             </Link>
             <p className="text-gray-400">
               Enhancing musical experiences by preventing song repetition at
@@ -63,7 +62,7 @@ const Footer = () => {
                 Twitter
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/noreplay.music/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors"
