@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #eb0000;
+  --secondary: #ff5500;
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-full transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-secondary text-white;
+  }
+}
